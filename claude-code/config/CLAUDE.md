@@ -117,6 +117,20 @@ you have unlimited stamina, the human does not. loop on hard problems, but don't
 - don't refactor unrelated code
 - don't add documentation unless asked
 
+## docs
+
+before working on any subsystem, read the relevant doc from `docs/`. the index is at `docs/index.md`.
+
+topic mapping:
+- serve/, inference, schemas -> read `docs/serving.md`
+- main-webagent-browseros/, miniwob, grounding -> read `docs/webagent.md`
+- main-sql-clay/, company search, filters -> read `docs/sql-clay.md`
+- on-policy-distillation-general/, kl penalty -> read `docs/distillation.md`
+- tinker, checkpoints, chz, resume_from -> read `docs/tinker.md`
+- trajectories, training data -> read `docs/trajectories.md`
+
+when you modify a subsystem in a way that changes its interface, behavior, or structure, update the corresponding doc.
+
 ## principles
 
 ### research
